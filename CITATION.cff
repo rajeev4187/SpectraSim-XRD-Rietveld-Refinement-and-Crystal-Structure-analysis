@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "SpectraSim XRD — Rietveld refinement and phase analysis"
+title: "SpectraSim XRD — Rietveld refinement and Crystal Structure Analysis"
 type: software
 authors:
   - family-names: Kumar

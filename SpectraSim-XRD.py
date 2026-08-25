@@ -1,4 +1,7 @@
-"""SpectraSim XRD — Rietveld refinement. Streamlit entry point.
+"""SpectraSim XRD — Rietveld refinement and Crystal Structure
+Analysis.
+
+Streamlit entry point.
 
 Deploy on Streamlit Community Cloud with this file as the main file path.
 Run locally with:
@@ -113,7 +116,8 @@ import streamlit as _st
 _st.sidebar.markdown("---")
 _st.sidebar.caption(
     "**Cite this tool:** Kumar, R. (2026). *SpectraSim XRD — Rietveld "
-    "refinement and phase analysis* [Computer software]. North Carolina "
-    "Central University. "
-    "https://github.com/rajeev4187/SpectraSim-XRD-Rietveld-Refinement-and-Crystal-Structure-analysis"
+    "refinement and Crystal Structure Analysis* [Computer software]. North "
+    "Carolina Central University. "
+    "https://github.com/rajeev4187/SpectraSim-XRD-Rietveld-Refinement-and-Crystal-Structure-analysis. "
+    "DOI: 10.5281/zenodo.22088389"
 )

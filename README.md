@@ -18,8 +18,8 @@ crystallite size and microstrain, Le Bail decomposition, auto-indexing, and
 an explicit statement of what the refinement does and does not support.
 
 > **Citing this tool.** Kumar, R. (2026). *SpectraSim XRD — Rietveld
-> refinement and phase analysis* [Computer software]. North Carolina Central
-> University. https://github.com/rajeev4187/SpectraSim-XRD-Rietveld-Refinement-and-Crystal-Structure-analysis.
+> refinement and Crystal Structure Analysis* [Computer software]. North
+> Carolina Central University. https://github.com/rajeev4187/SpectraSim-XRD-Rietveld-Refinement-and-Crystal-Structure-analysis.
 > DOI: [10.5281/zenodo.22088389](https://doi.org/10.5281/zenodo.22088389).
 > Machine-readable citation metadata: [`CITATION.cff`](CITATION.cff).
 
