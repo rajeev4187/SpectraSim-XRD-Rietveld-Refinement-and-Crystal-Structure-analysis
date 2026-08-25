@@ -34,4 +34,4 @@ jobs:
         run: python -m pip install --upgrade pip pip-audit
 
       - name: Audit pinned dependencies for known CVEs
-        run: python -m pip-audit -r release/web-demo/requirements.txt
+        run: python -m pip_audit -r release/web-demo/requirements.txt
