@@ -1,6 +1,8 @@
 # SpectraSim XRD — Rietveld refinement
 
-**▶ Use it in your browser: https://spectrasim-xrd.streamlit.app/** — nothing to install.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22088389.svg)](https://doi.org/10.5281/zenodo.22088389)
+
+**▶ Use it in your browser: https://spectrasim-xrd-rietveld-refinement.streamlit.app/** — nothing to install.
 
 Multiphase whole-pattern Rietveld refinement of powder X-ray diffraction
 data: phase identification and quantification, lattice parameters,
@@ -9,8 +11,8 @@ an explicit statement of what the refinement does and does not support.
 
 > **Citing this tool.** Kumar, R. (2026). *SpectraSim XRD — Rietveld
 > refinement and phase analysis* [Computer software]. North Carolina Central
-> University. https://github.com/rajeev4187/SpectraSim-XRD-Analyzer
-> DOI: 10.5281/zenodo.TBD *(Zenodo archive — DOI pending)*.
+> University. https://github.com/rajeev4187/SpectraSim-XRD-Analyzer.
+> DOI: [10.5281/zenodo.22088389](https://doi.org/10.5281/zenodo.22088389).
 > Machine-readable citation metadata: [`CITATION.cff`](CITATION.cff).
 
 ## Which workflow you need

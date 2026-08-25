@@ -8,13 +8,12 @@ authors:
     email: rkumar@nccu.edu
     affiliation: North Carolina Central University
 repository-code: "https://github.com/rajeev4187/SpectraSim-XRD-Analyzer"
-url: "https://spectrasim-xrd.streamlit.app/"
+url: "https://spectrasim-xrd-rietveld-refinement.streamlit.app/"
 license: MIT
 date-released: 2026-08-09
 identifiers:
-  # TODO: replace with the minted Zenodo DOI once this release is archived.
   - type: doi
-    value: 10.5281/zenodo.TBD
+    value: 10.5281/zenodo.22088389
     description: "Zenodo archive of this software"
 keywords:
   - X-ray diffraction
