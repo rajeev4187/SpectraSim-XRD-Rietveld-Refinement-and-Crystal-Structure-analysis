@@ -1,4 +1,4 @@
-# SpectraSim XRD — Rietveld refinement
+# SpectraSim XRD — Rietveld refinement and Crystal Structure Analysis
 
 <div align="justify">
 
