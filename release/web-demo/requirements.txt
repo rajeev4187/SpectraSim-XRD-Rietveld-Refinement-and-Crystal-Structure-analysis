@@ -9,4 +9,4 @@ pillow==12.3.0
 pymatgen==2026.5.4
 spglib==2.7.0
 python-docx==1.2.0
-mp-api==0.46.4
+mp-api==0.46.5
