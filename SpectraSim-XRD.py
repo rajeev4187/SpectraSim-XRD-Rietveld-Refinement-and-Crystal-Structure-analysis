@@ -109,8 +109,10 @@ def _load_engine_code():
 _verify_under_streamlit_run()
 exec(_load_engine_code(), globals())
 
-# The engine bytecode carries no citation text. Appending it here keeps the
-# citation editable without rebuilding the .pyc files.
+# A sidebar copy of the citation. The engine renders its own in the main
+# area from a string baked into the bytecode, so changing what the app shows
+# there means editing the engine source and rebuilding the .pyc — editing
+# this caption alone will not do it.
 import streamlit as _st
 
 _st.sidebar.markdown("---")
