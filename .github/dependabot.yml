@@ -1,0 +1,17 @@
+version: 2
+updates:
+  # Public web-demo runtime dependencies (numpy, pandas, streamlit, plotly, …)
+  - package-ecosystem: "pip"
+    directory: "/release/web-demo"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "security"
+
+  # GitHub Actions workflow versions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SpectraSim XRD — Rietveld refinement and phase analysis"
+type: software
+authors:
+  - family-names: Kumar
+    given-names: Rajeev
+    email: rkumar@nccu.edu
+    affiliation: North Carolina Central University
+repository-code: "https://github.com/rajeev4187/SpectraSim-XRD-Analyzer"
+url: "https://spectrasim-xrd.streamlit.app/"
+license: MIT
+date-released: 2026-08-09
+identifiers:
+  # TODO: replace with the minted Zenodo DOI once this release is archived.
+  - type: doi
+    value: 10.5281/zenodo.TBD
+    description: "Zenodo archive of this software"
+keywords:
+  - X-ray diffraction
+  - Rietveld refinement
+  - phase quantification
+  - crystallite size
+  - Le Bail
+  - Streamlit

@@ -1,0 +1,26 @@
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+headless = true
+runOnSave = false
+maxUploadSize = 40
+maxMessageSize = 80
+enableXsrfProtection = true
+enableCORS = true
+enableStaticServing = false
+folderWatchBlacklist = ["**"]
+
+[client]
+showErrorDetails = false
+toolbarMode = "viewer"
+
+[global]
+developmentMode = false
