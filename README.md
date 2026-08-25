@@ -1,8 +1,16 @@
 # SpectraSim XRD — Rietveld refinement
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://spectrasim-xrd-rietveld-refinement.streamlit.app/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22088389.svg)](https://doi.org/10.5281/zenodo.22088389)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python 3.12 | 3.13 | 3.14](https://img.shields.io/badge/python-3.12%20%7C%203.13%20%7C%203.14-blue.svg)](requirements.txt)
+[![Dependency security audit](https://github.com/rajeev4187/SpectraSim-XRD-Rietveld-Refinement-and-Crystal-Structure-analysis/actions/workflows/security-audit.yml/badge.svg)](https://github.com/rajeev4187/SpectraSim-XRD-Rietveld-Refinement-and-Crystal-Structure-analysis/actions/workflows/security-audit.yml)
 
 **▶ Use it in your browser: https://spectrasim-xrd-rietveld-refinement.streamlit.app/** — nothing to install.
+
+<!-- Hero image pending — drop the refinement screenshot in and uncomment:
+![Rietveld refinement plot: observed, calculated and difference curves](docs/images/refinement-hero.png)
+-->
 
 Multiphase whole-pattern Rietveld refinement of powder X-ray diffraction
 data: phase identification and quantification, lattice parameters,
@@ -11,7 +19,7 @@ an explicit statement of what the refinement does and does not support.
 
 > **Citing this tool.** Kumar, R. (2026). *SpectraSim XRD — Rietveld
 > refinement and phase analysis* [Computer software]. North Carolina Central
-> University. https://github.com/rajeev4187/SpectraSim-XRD-Analyzer.
+> University. https://github.com/rajeev4187/SpectraSim-XRD-Rietveld-Refinement-and-Crystal-Structure-analysis.
 > DOI: [10.5281/zenodo.22088389](https://doi.org/10.5281/zenodo.22088389).
 > Machine-readable citation metadata: [`CITATION.cff`](CITATION.cff).
 

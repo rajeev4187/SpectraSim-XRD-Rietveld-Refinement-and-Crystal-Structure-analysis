@@ -7,7 +7,7 @@ authors:
     given-names: Rajeev
     email: rkumar@nccu.edu
     affiliation: North Carolina Central University
-repository-code: "https://github.com/rajeev4187/SpectraSim-XRD-Analyzer"
+repository-code: "https://github.com/rajeev4187/SpectraSim-XRD-Rietveld-Refinement-and-Crystal-Structure-analysis"
 url: "https://spectrasim-xrd-rietveld-refinement.streamlit.app/"
 license: MIT
 date-released: 2026-08-09

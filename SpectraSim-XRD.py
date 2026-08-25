@@ -114,5 +114,6 @@ _st.sidebar.markdown("---")
 _st.sidebar.caption(
     "**Cite this tool:** Kumar, R. (2026). *SpectraSim XRD — Rietveld "
     "refinement and phase analysis* [Computer software]. North Carolina "
-    "Central University. https://github.com/rajeev4187/SpectraSim-XRD-Analyzer"
+    "Central University. "
+    "https://github.com/rajeev4187/SpectraSim-XRD-Rietveld-Refinement-and-Crystal-Structure-analysis"
 )
