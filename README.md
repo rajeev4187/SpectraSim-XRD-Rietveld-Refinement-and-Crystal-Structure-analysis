@@ -1,5 +1,7 @@
 # SpectraSim XRD — Rietveld refinement
 
+<div align="justify">
+
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://spectrasim-xrd-rietveld-refinement.streamlit.app/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22088389.svg)](https://doi.org/10.5281/zenodo.22088389)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -187,3 +189,5 @@ to a measured quantity.
 ## Licence
 
 MIT — see `LICENSE`.
+
+</div>
