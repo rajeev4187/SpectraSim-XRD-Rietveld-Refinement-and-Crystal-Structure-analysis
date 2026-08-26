@@ -161,12 +161,30 @@ wrong - a Rietveld problem is rarely reproducible from a description.
 
 ## Acknowledgements
 
-Built on [pymatgen](https://pymatgen.org) and
-[spglib](https://spglib.readthedocs.io) for structure handling and
-space-group analysis. Validated against **FullProf**, **GSAS-II** and
-**HighScore Plus**. Reference structures from the [Crystallography Open
+Built on [pymatgen](https://pymatgen.org) for structure handling, space-group
+analysis and the X-ray scattering-factor tables (Ong *et al.*, *Comput.
+Mater. Sci.* **68**, 314, 2013) and [spglib](https://spglib.readthedocs.io)
+(Togo & Tanaka, arXiv:1808.01590); the forward-model kernel is validated
+against pymatgen's own `XRDCalculator` to 1×10⁻¹³. Results were validated
+against **FullProf** (Rodríguez-Carvajal, *Physica B* **192**, 55, 1993),
+**GSAS-II** (Toby & Von Dreele, *J. Appl. Crystallogr.* **46**, 544, 2013)
+and **HighScore Plus** (Degen *et al.*, *Powder Diffr.* **29**, S13, 2014).
+Reference structures from the [Crystallography Open
 Database](https://www.crystallography.net) and the [Materials
 Project](https://materialsproject.org).
+
+The 2026 correctness work took its arguments from published sources rather
+than from taste, and some of the design is theirs. **XRDSol** (Yu, Zhu, Leng &
+Zhu, *Nat. Commun.* 2026) is the reason a solved structure is screened for
+plausibility at all: they used an independent energetic criterion to correct
+39 ICSD entries that fitted their own patterns and had stood wrong for
+decades. The interatomic-distance form of that screen is from **AXS** (Ling,
+Montoya, Hung & Aykol, *Comput. Mater. Sci.* **214**, 111687, 2022).
+[Ab-PXRD-Solver](https://github.com/MaterSim/Ab-PXRD-Solver) takes the
+opposite approach to space groups and is why this app is explicit that
+absences only ever narrow one; [ABINIT](https://github.com/abinit/abinit) is
+the cautionary case on symmetry tolerances that argued for tying this app's
+to a measured quantity.
 
 ## Licence
 
