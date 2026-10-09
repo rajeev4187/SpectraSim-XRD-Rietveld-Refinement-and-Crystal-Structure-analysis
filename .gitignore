@@ -32,3 +32,6 @@ desktop.ini
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
+
+# Sample data stays local, not in the repository
+release/Sample data/
