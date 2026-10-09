@@ -145,7 +145,7 @@ pip install -r requirements.txt
 streamlit run SpectraSim-XRD.py
 ```
 
-Python 3.12, 3.13 or 3.14. Sample data is in `release/Sample data`.
+Python 3.12, 3.13 or 3.14.
 
 ## How this repository is arranged
 
