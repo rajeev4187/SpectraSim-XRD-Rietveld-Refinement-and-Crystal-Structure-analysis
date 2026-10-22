@@ -10,3 +10,4 @@ pymatgen==2026.5.4
 spglib==2.7.0
 python-docx==1.2.0
 mp-api==0.46.4
+six==1.17.0
