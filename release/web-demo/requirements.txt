@@ -6,7 +6,7 @@ plotly==7.1.0
 openpyxl==3.1.5
 kaleido==1.4.0
 pillow==12.3.0
-pymatgen==2026.5.4
+pymatgen==2026.9.24
 spglib==2.7.0
 python-docx==1.2.0
 mp-api==0.46.4
