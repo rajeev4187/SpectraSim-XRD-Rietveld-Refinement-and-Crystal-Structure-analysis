@@ -71,7 +71,12 @@ since it scores badly against the whole pattern by definition.
   scored two-sided so a candidate must both explain your peaks and have its
   own strong lines present. Composes a multiphase answer by adding only
   phases that earn their place against what is still unexplained *and*
-  against the whole pattern.
+  against the whole pattern. An optional full-profile search then refines
+  shortlisted candidates against the complete pattern and admits additions
+  only when their improvement passes Hamilton's significance test.
+- **Background estimation** by SNIP or asymmetric least squares (AsLS), with
+  a cross-check that highlights where the two estimates disagree enough to
+  make the background a modelling choice rather than a measurement.
 - **Le Bail decomposition and auto-indexing** for an unknown phase - a cell
   and profile constants without a structure. Two indexers: index assignment
   for the high-symmetry systems, and an ITO-style zone search reaching
@@ -99,7 +104,9 @@ since it scores badly against the whole pattern by definition.
   shared phase list, or identifies each sample for itself from the same
   candidate pool - which is the difference between a series of one material
   and a set of different ones. Loaded singly, each sample keeps its own phase
-  selection and its own fit.
+  selection and its own fit. For a series, shift-tolerant pattern similarity
+  flags checkpoints where a phase change may make carrying the previous fit
+  forward unreliable.
 - **Reads what your diffractometer wrote** - PANalytical XRDML, Bruker RAW,
   Excel, CSV and any two-column ASCII export, plus Origin projects (.opj,
   .opju) where Origin itself is installed, each worksheet that looks like a
